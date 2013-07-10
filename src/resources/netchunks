@@ -1,0 +1,4 @@
+#!/bin/bash
+curl -k -u admin:Tester123 -d "name=3001" -d "=" http://localhost:8000/servicesNS/admin/netvistra/data/inputs/tcp/raw
+echo "$1" | nc localhost 3001
+exit
